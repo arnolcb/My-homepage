@@ -33,9 +33,8 @@
       class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-colors"
     >
       <a
-        href="../assets/download/CV_Arnol_Caceres.pdf"
+        href="/src/assets/download/CV_2023.pdf"
         download="CV_Arnol_Caceres.pdf"
-        class=""
       >
         <i class="fa-solid fa-file-arrow-down h-4 w-4"></i>
         {{ $t("Resume") }}</a
