@@ -3,7 +3,7 @@ const projectsData = [
         id: 1,
         title: 'My homepage',
         description: 'My personal homepage.',
-        image: '../../../../src/components/projects/images/MyHomepage.png',
+        image: '/images/MyHomepage.png',
         technologies: 'vue,tailwindcss',
         link: '/projects/my-homepage',
         color: '#4a5568'
