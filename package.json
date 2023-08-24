@@ -1,0 +1,26 @@
+{
+  "name": "arnolcb-homepage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@vueuse/core": "^10.2.1",
+    "swiper": "^10.2.0",
+    "vue": "^3.3.4",
+    "vue-carousel": "^0.18.0",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.3.9"
+  }
+}

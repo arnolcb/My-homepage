@@ -1,0 +1,63 @@
+<script setup>
+import ButtonLargeComponent from "../components/widgets/ButtonLargeComponent.vue";
+import { ref, onMounted, onBeforeUnmount } from "vue";
+import NavComponent from "../components/NavComponent.vue";
+import NavMobileComponent from "../components/NavMobileComponent.vue";
+
+const isDesktop = ref(window.innerWidth >= 600);
+
+const updateWindowWidth = () => {
+  isDesktop.value = window.innerWidth >= 600;
+};
+
+onMounted(() => {
+  window.addEventListener("resize", updateWindowWidth);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("resize", updateWindowWidth);
+});
+</script>
+
+<template lang="">
+  <div>
+    <transition name="nav-transition" mode="out-in">
+      <NavComponent v-if="isDesktop" key="desktop" />
+      <NavMobileComponent v-else key="mobile" />
+    </transition>
+  </div>
+  <div class="text-center py-7 font-bold text-2xl dark:text-white">Weighted average calculator</div>
+  <img
+    src="../components/projects/images/wa-calculator-cover.png"
+    alt=""
+    class="w-96 h-90 mx-auto"
+  />
+  <div class="flex justify-center mt-5">
+    <ButtonLargeComponent
+      link="https://github.com/arnolcb/wa-calculator"
+      icon="fa-brands fa-github"
+      buttonText="View repository"
+    />
+    <ButtonLargeComponent
+      link="https://wa-calculator.vercel.app/"
+      icon="fa-solid fa-link"
+      buttonText="Live preview"
+    />
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.nav-transition-enter-active,
+.nav-transition-leave-active {
+  transition: opacity 0.5s, transform 0.5s;
+}
+.nav-transition-enter,
+.nav-transition-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+</style>
