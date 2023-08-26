@@ -28,7 +28,7 @@ onBeforeUnmount(() => {
   </div>
   <div class="text-center py-7 font-bold text-2xl dark:text-white">Weighted average calculator</div>
   <img
-    src="../components/projects/images/wa-calculator-cover.png"
+    src="/images/wa-calculator-cover.png"
     alt=""
     class="w-96 h-90 mx-auto"
   />
