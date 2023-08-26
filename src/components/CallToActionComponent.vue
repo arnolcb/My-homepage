@@ -33,7 +33,7 @@
       class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-colors"
     >
       <a
-        href="/src/assets/download/CV_2023.pdf"
+        href="/download/CV_2023.pdf"
         download="CV_Arnol_Caceres.pdf"
       >
         <i class="fa-solid fa-file-arrow-down h-4 w-4"></i>
