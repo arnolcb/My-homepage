@@ -34,7 +34,7 @@ import projectsData from "../components/projects/projectsData.js";
         </h2>
         <img
           class="h-20 w-32 mt-2 mb-2 mx-auto rounded"
-          src="../components/projects/images/MyHomepage3.png"
+          src="/images/MyHomepage3.png"
         />
         <!--<p class="text-sm text-center mt-2 mb-2">Texto de prueba</p>-->
         <p class="text-md text-center mb-4">
@@ -52,7 +52,7 @@ import projectsData from "../components/projects/projectsData.js";
         </h2>
         <img
           class="h-20 w-32 mt-2 mb-2 mx-auto rounded"
-          src="../components/projects/images/bbcc-inmobiliaria-cover.png"
+          src="/images/bbcc-inmobiliaria-cover.png"
         />
         <!--<p class="text-sm text-center mt-2 mb-2">Texto de prueba</p>-->
         <p class="text-md text-center mb-4">
@@ -72,7 +72,7 @@ import projectsData from "../components/projects/projectsData.js";
         </h2>
         <img
           class="h-20 w-32 mt-2 mb-2 mx-auto rounded"
-          src="../components/projects/images/birthbot.png"
+          src="/images/birthbot.png"
         />
         <!--<p class="text-sm text-center mt-2 mb-2">Texto de prueba</p>-->
         <p class="text-md text-center mb-4">
