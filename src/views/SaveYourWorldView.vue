@@ -28,7 +28,7 @@ onBeforeUnmount(() => {
   </div>
   <div class="text-center py-7 font-bold text-2xl dark:text-white">Save Your World</div>
   <img
-    src="/images/welcome-saveyourworld-2-re.gif"
+    src="/images/welcome-syw.gif"
     alt=""
     class="w-96 h-90 mx-auto"
   />

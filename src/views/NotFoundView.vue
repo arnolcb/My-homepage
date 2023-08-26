@@ -27,7 +27,7 @@ onBeforeUnmount(() => {
 
   <h1 class="text-center font-mono mt-10 dark:text-white">ERROR</h1>
   <img
-    src="../assets/img/cat-404.png"
+    src="/images/cat-404.png"
     alt="cat-404"
     class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 mx-auto select-none"
   />

@@ -4,7 +4,7 @@
   >
     <div class="">
       <img
-        src="../assets/img/profile.png"
+        src="/images/profile.png"
         alt="hero"
         class="hero-image rounded-full h-60 text-center items-center mx-auto md:mx-0"
       />
@@ -13,7 +13,7 @@
       <div class="mt-4 md:mt-0 text-3xl">
         <div class="hand-container">
           <img
-            src="../assets/img/waving-hand-sign.png"
+            src="/images/waving-hand-sign.png"
             alt="waving-hand-sign"
             class="hand w-16 h-16 inline-block animate-wave"
           />
@@ -33,7 +33,7 @@
       class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-colors"
     >
       <a
-        href="/download/CV_2023.pdf"
+        href="/download/CV_Arnol_Caceres.pdf"
         download="CV_Arnol_Caceres.pdf"
       >
         <i class="fa-solid fa-file-arrow-down h-4 w-4"></i>

@@ -38,14 +38,14 @@ const toggleDark = useToggle(isDark);
             <button class="nav-button flex items-center" @click="toggleDark()">
               <img
                 v-if="isDark"
-                src="@/assets/img/dark-mode-icon.svg"
+                src="/images/dark-mode-icon.svg"
                 alt="Icono Dark"
                 class="w-6 h-6"
                 style="filter: invert(1)"
               />
               <img
                 v-else
-                src="@/assets/img/light-mode-icon.svg"
+                src="/images/light-mode-icon.svg"
                 alt="Icono Light"
                 class="w-6 h-6"
               />
