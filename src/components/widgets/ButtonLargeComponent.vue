@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-5 inline-flex">
+  <div class="">
     <a :href="link" target="_blank" rel="noopener noreferrer" class="hover:no-underline">
       <button
         class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-800 transition-colors text-white py-3 px-5 rounded-md flex items-center"
