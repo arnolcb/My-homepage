@@ -23,6 +23,13 @@
         {{ $t("bio.2020") }}
       </div>
     </div>
+
+    <div class="flex text-lg font-mono">
+      <div class="font-bold hover:text-blue-500 transition-colors">2023 - present</div>
+      <div class="font-sans ml-2 ">
+        {{ $t("bio.2023") }}
+      </div>
+    </div>
   </div>
 </template>
 
